@@ -1,6 +1,5 @@
 package kr.co.fastcampus.hello_world.practice.components
 
-import android.adservices.topics.Topic
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.size
