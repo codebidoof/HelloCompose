@@ -11,11 +11,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import kr.co.fastcampus.hello_world.practice.components.Surface1
+import kr.co.fastcampus.hello_world.practice.components.Surface2
+import kr.co.fastcampus.hello_world.practice.components.Surface3
 import kr.co.fastcampus.hello_world.practice.components.Surface4
 import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 
 @Composable
 fun SurfaceEx(name: String) {
+    //Surface1(name)
+    //Surface2(name)
+    //Surface3(name)
     Surface4(name)
 }
 
