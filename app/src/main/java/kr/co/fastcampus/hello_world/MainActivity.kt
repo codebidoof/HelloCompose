@@ -4,8 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import kr.co.fastcampus.hello_world.practice.screens.BoxEx
 import kr.co.fastcampus.hello_world.practice.screens.ButtonEx
 import kr.co.fastcampus.hello_world.practice.screens.ModifierEx
+import kr.co.fastcampus.hello_world.practice.screens.RowEx
 import kr.co.fastcampus.hello_world.practice.screens.SurfaceEx
 import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 
@@ -17,7 +19,9 @@ class MainActivity : ComponentActivity() {
             HelloWoridTheme {
                 //ButtonEx {  }
                 //ModifierEx()
-                SurfaceEx("Android")
+                //SurfaceEx("Android")
+                //BoxEx()
+                RowEx()
             }
         }
     }
