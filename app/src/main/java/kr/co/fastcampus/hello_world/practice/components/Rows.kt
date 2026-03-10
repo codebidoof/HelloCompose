@@ -28,7 +28,7 @@ fun Row0() {
     }
 }
 
-//1. 각 텍스의 modifier에 align을 설정
+//1. 각 텍스트의 modifier에 align을 설정
 //Alignment.Top, CenterVertically, Bottom을 지정해 보자
 @Composable
 fun Row1() {
