@@ -13,8 +13,8 @@ import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 fun SurfaceEx(name: String) {
     //Surface1(name)
     //Surface2(name)
-    //Surface3(name)
-    Surface4(name)
+    Surface3(name)
+//    Surface4(name)
 }
 
 @Preview(showBackground = true)

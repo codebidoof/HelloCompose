@@ -23,10 +23,10 @@ fun ModifierEx() {
 //    Modifier3()
 //    Modifier4()
 //    Modifier5()
-//    Modifier6()
+    Modifier6()
 //    Modifier7()
 //    Modifier8()
-    Modifier9()
+//    Modifier9()
 }
 
 @Preview(showBackground = true)

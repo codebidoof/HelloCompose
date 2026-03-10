@@ -14,7 +14,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 
 @Composable
 fun Button0() {
@@ -124,5 +126,18 @@ fun Button5() {
             modifier = Modifier.size(ButtonDefaults.IconSpacing)
         )
         Text("Send")
+    }
+}
+
+@Preview
+@Composable
+fun ButtonPreview() {
+    HelloWoridTheme() {
+        //Button0()
+        //Button1()
+        //Button2()
+        //Button3()
+        //Button4()
+        Button5()
     }
 }

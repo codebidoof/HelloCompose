@@ -17,7 +17,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 
 @Composable
 fun Modifier0() {
@@ -224,5 +226,13 @@ fun Modifier9() {
             modifier = Modifier.offset(x = 10.dp)
                 .background(Color.Blue)
         )
+    }
+}
+
+@Preview
+@Composable
+fun PreviewModifier() {
+    HelloWoridTheme() {
+        Modifier6()
     }
 }

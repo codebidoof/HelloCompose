@@ -9,7 +9,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 
 @Composable
 fun Surface0(name: String) {
@@ -98,4 +100,16 @@ fun Surface4(name: String) {
             modifier = Modifier.padding(8.dp)
         )
     }
+}
+
+@Preview
+@Composable
+fun SurfacePreview() {
+    HelloWoridTheme() {
+        //Surface0("Android")
+        //Surface1("Android")
+        //Surface2("Android")
+        Surface3("Android")
+    }
+
 }
