@@ -34,13 +34,13 @@ fun Column1() {
 }
 
 //2. verticalArrangement를 Column에 적용
-//SpaceAround, SpaceEvenly, SpaceBetween도 해보자.
+//SpaceAround, SpaceEvenly, SpaceBetween 도 해보자.
 //Arrangement에는 Center뒤에 수식어 안 붙는다.
 @Composable
 fun Column2() {
     Column(
-        horizontalAlignment = Alignment.End,
-        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.Start,
+        verticalArrangement = Arrangement.SpaceBetween,
         modifier = Modifier.size(100.dp)
     ) {
         Text(text = "첫 번째")
@@ -75,7 +75,7 @@ fun ColumnPreview() {
     HelloWoridTheme() {
 //        Column0()
 //        Column1()
-//        Column2()
-        Column3()
+        Column2()
+//        Column3()
     }
 }

@@ -44,7 +44,7 @@ fun Row1() {
 @Composable
 fun Row2() {
     Row(
-        verticalAlignment = Alignment.Bottom,
+        verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier.height(40.dp)
     ) {
         Text(text = "첫 번째!", modifier = Modifier.align(Alignment.Top))
@@ -133,8 +133,8 @@ fun Row5() {
 fun RowPreview() {
 //    Row0()
 //    Row1()
-//    Row2()
+    Row2()
 //    Row3()
 //    Row4()
-    Row5()
+//    Row5()
 }
