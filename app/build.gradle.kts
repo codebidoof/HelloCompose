@@ -57,4 +57,10 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // 스텝 1: coil 의존성을 추가합니다.
+    // "io.coil-kt:coil:2.2.2" 의존성을 추가합니다.
+    // "io.coil-kt:coil-compose:2.2.2" 의존성도 추가합니다.
+    implementation("io.coil-kt:coil:2.2.2")
+    implementation("io.coil-kt:coil-compose:2.2.2")
 }

@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import kr.co.fastcampus.hello_world.practice.screens.BoxEx
 import kr.co.fastcampus.hello_world.practice.screens.BoxWcEx
 import kr.co.fastcampus.hello_world.practice.screens.ButtonEx
+import kr.co.fastcampus.hello_world.practice.screens.CoilEx
 import kr.co.fastcampus.hello_world.practice.screens.ColumnEx
 import kr.co.fastcampus.hello_world.practice.screens.ImgEx
 import kr.co.fastcampus.hello_world.practice.screens.ModifierEx
@@ -27,7 +28,8 @@ class MainActivity : ComponentActivity() {
                 //RowEx()
                 //ColumnEx()
                 //BoxWcEx()
-                ImgEx()
+                //ImgEx()
+                CoilEx()
             }
         }
     }
