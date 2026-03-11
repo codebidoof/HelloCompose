@@ -8,6 +8,7 @@ import kr.co.fastcampus.hello_world.practice.screens.BoxEx
 import kr.co.fastcampus.hello_world.practice.screens.BoxWcEx
 import kr.co.fastcampus.hello_world.practice.screens.ButtonEx
 import kr.co.fastcampus.hello_world.practice.screens.ColumnEx
+import kr.co.fastcampus.hello_world.practice.screens.ImgEx
 import kr.co.fastcampus.hello_world.practice.screens.ModifierEx
 import kr.co.fastcampus.hello_world.practice.screens.RowEx
 import kr.co.fastcampus.hello_world.practice.screens.SurfaceEx
@@ -25,7 +26,8 @@ class MainActivity : ComponentActivity() {
                 //BoxEx()
                 //RowEx()
                 //ColumnEx()
-                BoxWcEx()
+                //BoxWcEx()
+                ImgEx()
             }
         }
     }
