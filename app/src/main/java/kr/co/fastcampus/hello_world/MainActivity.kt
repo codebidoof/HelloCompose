@@ -15,6 +15,7 @@ import kr.co.fastcampus.hello_world.practice.screens.ImgEx
 import kr.co.fastcampus.hello_world.practice.screens.ModifierEx
 import kr.co.fastcampus.hello_world.practice.screens.RowEx
 import kr.co.fastcampus.hello_world.practice.screens.SurfaceEx
+import kr.co.fastcampus.hello_world.practice1.components.CheckBoxEx
 import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 
 class MainActivity : ComponentActivity() {
@@ -32,7 +33,8 @@ class MainActivity : ComponentActivity() {
                 //BoxWcEx()
                 //ImgEx()
                 //CoilEx()
-                CardScreen()
+                //CardScreen()
+                CheckBoxEx()
             }
         }
     }

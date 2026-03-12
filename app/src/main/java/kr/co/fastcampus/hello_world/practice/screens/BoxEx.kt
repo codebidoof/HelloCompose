@@ -7,6 +7,8 @@ import kr.co.fastcampus.hello_world.practice.components.Box2
 import kr.co.fastcampus.hello_world.practice.components.Box3
 import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
 
+
+
 @Composable
 fun BoxEx() {
     Box3()
