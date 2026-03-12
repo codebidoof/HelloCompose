@@ -13,7 +13,7 @@ fun CoilEx() {
     // 스텝 3: rememberImagePainter를 이용해 Image의 painter를 설정합니다.
     // (Compose 한국어 문서의 추천, but Deprecated)
     // 이미지 URI: https://raw.githubusercontent.com/Fastcampus-JetpackCompose-1/part1-chapter3/refs/heads/main/part1-chapter3-10/app/src/main/res/drawable-hdpi/wall.jpg
-//    val painter = rememberImagePainter(data = "https://raw.githubusercontent.com/Fastcampus-JetpackCompose-1/part1-chapter3/refs/heads/main/part1-chapter3-10/app/src/main/res/drawable-hdpi/wall.jpg")
+    val painter = rememberImagePainter(data = "https://raw.githubusercontent.com/Fastcampus-JetpackCompose-1/part1-chapter3/refs/heads/main/part1-chapter3-10/app/src/main/res/drawable-hdpi/wall.jpg")
 //    Image(
 //        painter = painter,
 //        contentDescription = "엔텔로프 캐년"
