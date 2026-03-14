@@ -57,7 +57,7 @@ fun CheckBoxEx() {
 
         // 위임된 속성
         // var checked = remember { mutableStateOf(false)}
-        // checked가 프로퍼티인 것처럼
+        // checked가 value프로퍼티인 것처럼
         // 스텝 4: delegated properties로 변경해봅시다.
         var _checked by remember { mutableStateOf(false) }
         Row(verticalAlignment = Alignment.CenterVertically) {
