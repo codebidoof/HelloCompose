@@ -4,7 +4,11 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.TopAppBar
+import androidx.compose.ui.Modifier
 import kr.co.fastcampus.hello_world.practice.CardData
 import kr.co.fastcampus.hello_world.practice.screens.BoxEx
 import kr.co.fastcampus.hello_world.practice.screens.BoxWcEx
@@ -18,6 +22,7 @@ import kr.co.fastcampus.hello_world.practice.screens.RowEx
 import kr.co.fastcampus.hello_world.practice.screens.SurfaceEx
 import kr.co.fastcampus.hello_world.practice1.components.CheckBoxEx
 import kr.co.fastcampus.hello_world.practice1.components.Greeting
+import kr.co.fastcampus.hello_world.practice1.components.SlotEx
 import kr.co.fastcampus.hello_world.practice1.components.TextFieldEx
 import kr.co.fastcampus.hello_world.practice1.components.TopAppBarEx
 import kr.co.fastcampus.hello_world.ui.theme.HelloWoridTheme
@@ -41,7 +46,13 @@ class MainActivity : ComponentActivity() {
                 //CardScreen()
                 //CheckBoxEx()
                 //TextFieldEx()
-                TopAppBarEx("Android")
+                //TopAppBarEx("Android")
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    SlotEx()
+                }
 
             }
         }
