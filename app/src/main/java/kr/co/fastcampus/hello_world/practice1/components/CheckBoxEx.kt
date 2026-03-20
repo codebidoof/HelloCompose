@@ -74,7 +74,7 @@ fun CheckBoxEx() {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Checkbox(
                 checked = getter,
-                onCheckedChange = setter //setter(!checked)가 호출되서 value프로퍼티의 값이 바뀜 -> 그걸 관찰해서 감지 -> recomposition
+                onCheckedChange = setter //set ter(!checked)가 호출되서value프로퍼티의 값이 바뀜 -> 그걸 관찰해서 감지 -> recomposition
             )
             Text(
                 text = "프로그래머입니까?",
